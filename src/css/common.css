@@ -16,3 +16,25 @@ img {
   display: block;
   max-width: 100%;
 }
+
+[data-start] {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 0 10px;
+}
+.timer {
+  display: flex;
+  margin-top: 15px;
+  gap: 20px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+}
+.value {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+}
