@@ -27,6 +27,7 @@ refs.inputAmount.addEventListener('input', event => {
 });
 refs.formSubmit.addEventListener('submit', event => {
   event.preventDefault();
+  event.target.reset();
   const amountArr = [];
   for (let i = 1; i <= amount; i += 1) {
     amountArr.push(i);
